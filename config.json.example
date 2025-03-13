@@ -7,6 +7,7 @@
     "ALWAYS_ONLINE": "false",
     "RMBG_KEY": "null",
     "WARN_LIMIT": "3",
+    "ARISE": "true"
     "FORCE_LOGOUT": "false",
     "DISABLE_BOT": "null",
     "ANTILINK_MSG": "_Antilink Detected &mention kicked_",
