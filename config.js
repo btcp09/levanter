@@ -56,6 +56,7 @@ module.exports = {
   KOYEB_NAME: (process.env.KOYEB_NAME || '').trim(),
   KOYEB_API: (process.env.KOYEB_API || '').trim(),
   AJOIN: process.env.AJOIN || 'false',
+  ARISE: process.env.ARISE || '').trim(),
   GPT: (process.env.GPT || 'free').trim(),
   MODEL: (process.env.MODEL || 'gpt-3.5-turbo').trim(),
   APPROVE: (process.env.APPROVE || '').trim(),
