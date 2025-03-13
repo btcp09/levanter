@@ -21,7 +21,7 @@ bot(
     const [date, time] = getDate()
 
     const CMD_HELP = [
-      lang.plugins.menu.help.format(
+      lang.plugins.arise.help.format(
         ctx.PREFIX,
         message.pushName,
         time,
@@ -73,7 +73,7 @@ bot(
 )
 bot(
   {
-    pattern: 'menu ?(.*)',
+    pattern: 'arise ?(.*)',
     dontAddCommandList: true,
   },
   async (message, match, ctx) => {
@@ -93,7 +93,7 @@ bot(
     const sortedCommandKeys = Object.keys(commands).sort()
 
     const [date, time] = getDate()
-    let msg = lang.plugins.menu.menu.format(
+    let msg = lang.plugins.arise.arise.format(
       ctx.PREFIX,
       message.pushName,
       time,
